@@ -15,7 +15,7 @@ export default function About() {
                     <img src={logoAbout} alt="about-img" />
                 </div>
                 <div className="mt-10">
-                    <p className="font-poppins font-extralight tracking-wide leading-6">
+                    <p className="font-poppins font-light tracking-wide leading-6">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem reiciendis perferendis non aut excepturi esse velit laudantium? Accusamus modi ipsum quaerat similique quis perferendis eaque nisi labore
                         corrupti est! corrupti est! corrupti est! corrupti est! corrupti est! similique quis perferendis eaque nisi labore corrupti est!
                     </p>
