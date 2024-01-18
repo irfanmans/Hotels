@@ -20,7 +20,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a href="" className="hover:text-[#1b8dde]">
+                            <a href="#about" className="hover:text-[#1b8dde]">
                                 Tentang Kami
                             </a>
                         </li>

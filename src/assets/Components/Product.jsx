@@ -40,10 +40,10 @@ export default function Product() {
             </div>
             <div className="md:grid md:grid-cols-2 md:px-10 lg:grid lg:grid-cols-4 lg:px-10">
                 {dataProduct.map((item, indeks) => (
-                    <div className="relative max-w-[350px] mx-auto mb-10 md:max-w-[310px] lg:max-w-[220px] lg:mb-6 xl:max-w-[280px]" key={indeks}>
+                    <div className="relative max-w-[350px] mx-auto mb-10 md:max-w-[310px] lg:max-w-[220px] lg:mb-6 xl:max-w-[280px] cursor-pointer" key={indeks}>
                         <div className="absolute px-5 py-4 text-white h-full w-full flex flex-col justify-end rounded-xl bg-black/50">
                             <p className="font-poppins text-base font-bold">{item.nama}</p>
-                            <p className="font-poppins text-xs font-light leading-4 tracking-wide">Rp. {item.harga}</p>
+                            <p className="font-poppins text-xs font-light leading-4 tracking-wide">{item.harga.toLocaleString("id-ID", { style: "currency", currency: "IDR" })}</p>
                         </div>
                         <img src={item.imgUrl} className="w-full h-[250px] object-cover rounded-xl" alt="dapur" />
                     </div>
